@@ -1,2 +1,32 @@
-__pycache__
-myenv
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Pytest / test caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Tool caches
+.mypy_cache/
+.ruff_cache/
+.deepeval/
+
+# Environment files
+.env
+.env.*
+
+# Local databases
+*.db
+*.sqlite3
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
