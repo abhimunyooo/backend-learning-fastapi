@@ -59,7 +59,7 @@ def test_user():
         last_name = "jaiswal",
         hashed_password = bcrypt_context.hash("testpassword"),
         role = "admin",
-        phone_number = "9648097213"
+        phone_number = "3290809939"
     )
     db = TestingSessionLocal()
     db.add(user)
